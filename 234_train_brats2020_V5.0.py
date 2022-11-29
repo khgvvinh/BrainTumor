@@ -1,13 +1,11 @@
 import os
-
 import numpy as np
 from custom_datagen import imageLoader
 import tensorflow as tf
-import keras
+from tensorflow import keras
 from matplotlib import pyplot as plt
 import glob
 import random
-
 
 ####################################################
 train_img_dir = "BraTS2020_TrainingData/input_data_128/train/images/"

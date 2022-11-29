@@ -1,9 +1,10 @@
 import numpy as np
 import nibabel as nib
 import glob
-from keras.utils import to_categorical
+from tensorflow.keras.utils import to_categorical
 import matplotlib.pyplot as plt
 from tifffile import imsave
+
 from sklearn.preprocessing import MinMaxScaler
 
 scaler = MinMaxScaler()

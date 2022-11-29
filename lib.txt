@@ -1,0 +1,9 @@
+numpy
+nibabel
+keras==2.9.0
+tifffile
+matplotlib
+scikit-learn
+tensorflow==2.4.1
+pandas
+segmentation-models-3D
